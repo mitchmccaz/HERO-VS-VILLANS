@@ -1,0 +1,28 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .vscode/launch.json
+#	new file:   __pycache__/backpack.cpython-310.pyc
+#	new file:   __pycache__/cans.cpython-310.pyc
+#	new file:   __pycache__/coins.cpython-310.pyc
+#	new file:   __pycache__/customer.cpython-310.pyc
+#	new file:   __pycache__/simulation.cpython-310.pyc
+#	new file:   __pycache__/soda_machine.cpython-310.pyc
+#	new file:   __pycache__/user_interface.cpython-310.pyc
+#	new file:   __pycache__/wallet.cpython-310.pyc
+#	new file:   backpack.py
+#	new file:   cans.py
+#	new file:   coins.py
+#	new file:   customer.py
+#	new file:   main.py
+#	new file:   simulation.py
+#	new file:   soda_machine.py
+#	new file:   user_interface.py
+#	new file:   wallet.py
+#
