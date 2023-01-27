@@ -1,8 +1,9 @@
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from .models import Hero
-from super_types.models  import Villan
-from super_types import HeroSerializer
+from .models  import Villan
+from serializers import HeroSerializer
+from serializers import VillanSerializer
 
 
 @api_view(["GET"])
@@ -14,3 +15,16 @@ def hero_list(request):
 
 
     return Response (serializer.data)
+
+
+
+@api_view(["GET"])
+def villan_list(request):
+
+    Villan = Villan.objects.all()
+    
+    serializer = VillanSerializer(Villan, many = True)
+
+
+    return Response (serializer.data)
+
